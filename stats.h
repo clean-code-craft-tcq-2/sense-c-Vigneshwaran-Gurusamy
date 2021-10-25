@@ -3,7 +3,7 @@
 extern int emailAlertCallCount;
 extern int ledAlertCallCount;
 
-typedef struct Stats{
+struct Stats{
   float min, max, average;
 };
 
